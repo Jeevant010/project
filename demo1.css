@@ -1,0 +1,9 @@
+body {
+    background-attachment: local;
+    background-color: aqua;
+}
+
+.id {
+    height: 100px;
+    width: 100px;
+}
