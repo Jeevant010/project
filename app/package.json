@@ -9,10 +9,10 @@
     "dependencies": {
         "@emotion/react": "^11.13.3",
         "@emotion/styled": "^11.13.0",
-        "@mui/material": "^6.1.4",
+        "@mui/material": "^5.x.x",
         "axios": "^1.x.x",
-        "react": "^18.x.x",
-        "react-dom": "^18.x.x",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
         "vite": "^4.x.x"
     },
     "devDependencies": {

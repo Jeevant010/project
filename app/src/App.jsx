@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios'; // Import axios
 import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import viteLogo from './vite.svg';
 import './App.css';
-import { Container, Grid } from "@mui/material";
-
+import { Container, Grid } from "./node_modules/@mui/material";
+import TestComponent from './TestComponent';
 // API Base URL
 const HEMERA_API_BASE = 'https://api.hemera.fi'; // Replace with actual URL
 
@@ -57,6 +57,11 @@ function App() {
     };
     fetchData();
   }, []);
+
+
+
+const App = () => <TestComponent />;
+
 
   return (
     <>
